@@ -17,9 +17,9 @@ echo "The result of your BMI is #bmi, in other words,";
     if ($imc < 18.5) {
         echo "below 18.5. You are with low weight.";
     } else if ($imc >= 18.5 && $imc < 25) {
-        echo "it's between 18,5 e 24,9, so it's normal.";
+        echo "it's between 18,5 and 24,9, so it's normal.";
     } else if ($imc >= 25) {
-        echo "above 25, what means overweight.";
+        echo "above 25, what means you are overweight.";
     }
 
     
